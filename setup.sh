@@ -1,3 +1,5 @@
+#change to kent repos
+sudo sed -i 's/http:\/\/archive.ubuntu.com\/ubuntu/http:\/\/www.mirrorservice.org\/sites\/archive.ubuntu.com\/ubuntu/g' /etc/apt/sources.list.d/official-package-repositories.list
 sudo apt update && apt upgrade -y
 
 
