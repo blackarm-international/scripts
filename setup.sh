@@ -1,3 +1,9 @@
+sudo apt update && apt upgrade -y
+
+
+#install chrome
+wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+sudo add-apt-repository "deb http://dl.google.com/linux/chrome/deb/ stable main"
 sudo apt update
 sudo apt install -y google-chrome-stable
 
@@ -17,4 +23,4 @@ sudo apt-get install -y spotify-client
 sudo apt install -y blender gimp htop inkscape nginx openssh-server steam virtualbox whatsapp-desktop
 
 # open the page for node installation
-google-chrome https://github.com/nodesource/distributions/blob/master/README.md
+google-chrome https://github.com/nodesource/distributions/blob/master/README.md#debinstall
