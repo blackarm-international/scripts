@@ -1,4 +1,4 @@
-efi - 10m
+efi - 50m
 root - 50g
 no swap
 
