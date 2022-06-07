@@ -1,0 +1,5 @@
+efi - 10m
+root - 50g
+no swap
+
+/home uses the rest
