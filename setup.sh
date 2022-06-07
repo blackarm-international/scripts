@@ -25,4 +25,4 @@ sudo apt-get install -y spotify-client
 sudo apt install -y blender gimp htop inkscape nginx openssh-server steam virtualbox whatsapp-desktop
 
 # open the page for node installation
-google-chrome https://github.com/nodesource/distributions/blob/master/README.md#debinstall
+google-chrome https://github.com/nodesource/distributions/blob/master/README.md#debinstall &
