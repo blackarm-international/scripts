@@ -1,6 +1,5 @@
 sudo apt update && apt upgrade -y
 
-
 #install chrome
 wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
 sudo add-apt-repository "deb http://dl.google.com/linux/chrome/deb/ stable main"
@@ -34,4 +33,4 @@ sudo apt install -y ./discord-0.0.17.deb
 sudo apt install -y blender gimp htop inkscape nginx openssh-server steam virtualbox whatsapp-desktop
 
 # open the page for node installation
-google-chrome https://github.com/nodesource/distributions/blob/master/README.md#debinstall
+google-chrome https://github.com/nodesource/distributions/blob/master/README.md#debinstall &
