@@ -30,7 +30,7 @@ wget https://dl.discordapp.net/apps/linux/0.0.17/discord-0.0.17.deb
 sudo apt install -y ./discord-0.0.17.deb
 
 #install general
-sudo apt install -y blender gimp htop inkscape nginx openssh-server steam virtualbox whatsapp-desktop
+sudo apt install -y autossh blender gimp git htop inkscape nginx openssh-server steam virtualbox whatsapp-desktop
 
 # open the page for node installation
 google-chrome https://github.com/nodesource/distributions/blob/master/README.md#debinstall &
