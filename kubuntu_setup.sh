@@ -1,5 +1,8 @@
 sudo apt update && apt upgrade -y
 
+#install general
+sudo apt install -y autossh blender curl gimp git htop inkscape net-tools nginx openssh-server steam virtualbox
+
 #install chrome
 wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
 sudo add-apt-repository "deb http://dl.google.com/linux/chrome/deb/ stable main"
@@ -27,10 +30,7 @@ sudo apt install -y ./zoom_amd64.deb
 #install discord
 cd ~/tmp
 wget https://dl.discordapp.net/apps/linux/0.0.17/discord-0.0.17.deb
-sudo apt install -y ./discord-0.0.17.deb
-
-#install general
-sudo apt install -y autossh blender gimp git htop inkscape net-tools nginx openssh-server steam virtualbox
+sudo apt install -y ./discord-0.0.17.deb\
 
 # open the page for node installation
 google-chrome https://github.com/nodesource/distributions/blob/master/README.md#debinstall &
