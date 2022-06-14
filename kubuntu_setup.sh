@@ -29,5 +29,7 @@ cd
 wget https://dl.discordapp.net/apps/linux/0.0.18/discord-0.0.18.deb
 sudo apt install -y ./discord-0.0.18.deb
 
-# open the page for node installation
-google-chrome https://github.com/nodesource/distributions/blob/master/README.md#debinstall &
+# install node
+# https://github.com/nodesource/distributions/blob/master/README.md#debinstall
+curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+sudo apt update && sudo apt-get install -y nodejs
