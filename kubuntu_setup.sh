@@ -7,7 +7,7 @@ sudo apt install -y autossh blender curl gimp git htop inkscape net-tools nginx 
 #install chrome
 wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
 sudo add-apt-repository -y "deb http://dl.google.com/linux/chrome/deb/ stable main"
-sudo apt install -y google-chrome-stable
+sudo apt update && sudo apt install -y google-chrome-stable
 
 #install codium
 wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg | gpg --dearmor | sudo dd of=/usr/share/keyrings/vscodium-archive-keyring.gpg
