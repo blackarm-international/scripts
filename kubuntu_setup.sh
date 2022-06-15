@@ -2,7 +2,7 @@ sudo apt update
 sudo apt upgrade -y
 
 #install general
-sudo apt install -y autossh blender curl gimp git htop inkscape net-tools nginx openssh-server steam virtualbox
+sudo apt install -y autossh blender curl gimp git htop inkscape net-tools nginx nmap openssh-server steam virtualbox
 
 #install chrome
 wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
